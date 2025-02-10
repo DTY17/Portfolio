@@ -4,6 +4,7 @@
   <head>
     <meta charset="UTF-8" />
     <title>Dinan Themika</title>
+    <script src="/src/Script/script.js"></script>
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
@@ -17,15 +18,17 @@
     <header>
       <div>
         <img src="\src\image\icon.png" alt="icon" />
-        <button>About me</button>
-        <button>Blog</button>
-        <button>Content</button>
-        <button>Hire me</button>
-        <button><i class="fa-solid fa-bars"></i></button>
+        <a href="#"><button>About me</button></a>
+        <a href="/blog.html"><button>Blog</button></a>
+        <a href="/contact.html"><button>Content</button></a>
+        <a href="/"><button>Hire Me</button></a>
+        <a href="#"
+          ><button><i class="fa-solid fa-bars"></i></button
+        ></a>
       </div>
     </header>
-
-    <section>
+    <hr />
+    <section id="about">
       <div>
         <strong>Dinan Themika</strong>
         <br />
@@ -34,11 +37,11 @@
         </label>
         <button>cv</button>
         <button>My Work</button>
-        <!-- <img src="\src\image\wallpaper.jpg" alt="icon" /> -->
+        <!-- add background image use]ing css -->
       </div>
     </section>
-
-    <section>
+    <hr />
+    <section id="skills">
       <strong>Skill</strong>
       <br />
       <div>
@@ -58,8 +61,8 @@
         <img src="\src\image\" alt="Software Engineering" />
       </div>
     </section>
-
-    <section>
+    <hr />
+    <section id="testimonial">
       <strong>Testimonial</strong>
       <br />
       <img src="\src\image\" alt="userIcon" />
@@ -79,8 +82,8 @@
         </div>
       </div>
     </section>
-
-    <section>
+    <hr />
+    <section id="projects">
       <div>
         <p>Pet dog tracking system and health care system .</p>
         <img src="\src\image\" alt="project1" />
@@ -97,8 +100,8 @@
         <div><img src="\src\image\" alt="projectLarge3" /></div>
       </div>
     </section>
-
-    <section>
+    <hr />
+    <section id="gallery">
       <strong>Gallery</strong>
       <div><img src="\src\image\" alt="galery1" /></div>
       <div><img src="\src\image\" alt="galery2" /></div>
@@ -107,7 +110,7 @@
       <div><img src="\src\image\" alt="galery5" /></div>
       <img src="\src\image\" alt="chooseGallery" />
     </section>
-
+    <hr />
     <section>
       <strong>Social media</strong>
       <img src="\src\image\" alt="socialmedia1" />
@@ -118,7 +121,7 @@
       <img src="\src\image\" alt="socialmedia6" />
       <img src="\src\image\" alt="socialmedia7" />
     </section>
-
+    <hr />
     <footer>
       <label>social media</label>
       <img src="\src\image\" alt="socialmedia1" />
@@ -134,19 +137,19 @@
 
       <label> Address </label>
       <ul>
-        <li>About me</li>
-        <li>Skill</li>
-        <li>Testimonial</li>
-        <li>Projects</li>
-        <li>Gallery</li>
+        <a href="#about"><li>About me</li></a>
+        <a href="#skills"><li>Skill</li></a>
+        <a href="#testimonial"><li>Testimonial</li></a>
+        <a href="#projects"><li>Projects</li></a>
+        <a href="#gallery"><li>Gallery</li></a>
       </ul>
 
       <label> More </label>
       <ul>
-        <li>About me</li>
-        <li>Blog</li>
-        <li>Contact</li>
-        <li>Hire me</li>
+        <a href="/index.html"><li>About me</li></a>
+        <a href="/blog.html"><li>Blog</li></a>
+        <a href="/contact.html"><li>Contact</li></a>
+        <a href=""><li>Hire me</li></a>
       </ul>
     </footer>
   </body>
